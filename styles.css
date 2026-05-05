@@ -97,3 +97,34 @@ button {
 
 }
 
+.box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: solid blue;
+    border-radius: 10px;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.quote h2 {
+color: black;
+display: flex;
+
+}
+
