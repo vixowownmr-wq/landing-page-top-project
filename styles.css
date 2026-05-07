@@ -128,3 +128,70 @@ display: flex;
 
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: ;
+    justify-content: center;
+
+}
+
+
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 39px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    color: azure;
+}
+
+.quote-text {
+
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote-author {
+    text-align: right;
+    color: black;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882f6;
+    border-radius: 12px;
+    padding: 50px;
+}
+
+.cta {
+    padding: 40px;
+}
+
+.cta-text h3,
+.cta-text p{
+    color: white;
+    margin: 0;
+}
+
+.cta button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    border: 2px solid white ;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.footer-box {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    padding: 30px;
+}
